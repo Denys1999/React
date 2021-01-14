@@ -1,14 +1,14 @@
 import React from 'react';
 //parts
-import{header} from '../components/header.js';
+import{Header} from './components/Header.js';
 
 function App() {
   return (
     <main>
-      <header/>
+      <Header/>
 
     </main>
-  );
+  )
 }
 
 
