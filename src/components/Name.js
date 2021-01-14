@@ -1,7 +1,7 @@
 import React from 'react';
-const Uname = (user) => `$(user.first) $(user.last)`;
+const Uname = (user) => `${user.first} ${user.last}`;
 
-const data ={
+const data = {
 	first:'Denis',
 	last:'Popov'
 };

@@ -1,2 +1,7 @@
  import React from 'react';
- export const rantext = <h3>Random text</h3>;
+const rantext = (textt) => `${textt.first}`;
+
+const text = {
+	first:'o1ijowijrflkejflkejfklwerjk'
+};
+export const element2 = <h1>{rantext(text)}</h1>;
